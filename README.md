@@ -29,7 +29,7 @@
 # How to Run this Project
 
 Step 1 : Clone the Project
-> Link : https://github.com/Siddhesh-Dandekar/To-Do-List-Application
+> Link : https://github.com/Siddhesh-Dandekar/Online-Library-System.git
 
 Step 2 : Install all the Packages
 > npm install
