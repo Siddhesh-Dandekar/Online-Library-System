@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav-section{
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/072/044/267/large/xebelion-40.jpg?1706522573);
+  border: solid 0.5px #373d3d;
+}
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.new-amsterdam-regular {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.handjet-font {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+      "ELGR" 1,
+      "ELSH" 2;
+}
+
+.border-custom{
+  border: solid 0.5px #373d3d;
+}
+
+#book-frame{
+  background-size: cover;
+  background-position: center;
+  filter: drop-shadow(2px 2px 2px grey);
+  background-image: url('https://images.unsplash.com/photo-1544716278-e513176f20b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.playwrite-nz-cl {
+  font-family: "Playwrite NZ", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fil{
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.oleo-script-regular {
+  font-family: "Oleo Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#add {
+  padding-left: 33px;
+  background-image: url('https://img.icons8.com/skeuomorphism/32/search.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  outline: 0;
+}
+
+.inter-tight-f {
+  font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#wid{
+  width: 13rem;
+}
+
+@media screen and (max-width:460px){
+  #wid{
+    width: 10rem;
+  }
+  #wid img{
+    height: 13rem;
+  }
+}
+
+textarea{
+  line-height: 1;
+}
