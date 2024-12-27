@@ -8,7 +8,6 @@ function Category() {
 
     const param = useParams();
     const bookdata = useSelector(item => item.book.items).filter(a => a.genre.toLowerCase() == param.category.toLowerCase())
-    console.log(bookdata)
     return (
         <>
             {bookdata.length != 0 ? <div>
